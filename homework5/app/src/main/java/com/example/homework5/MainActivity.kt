@@ -66,12 +66,17 @@ class MainActivity : AppCompatActivity() {
 
         binding.txtForgot.setOnClickListener{
             var mail = binding.etEmail.text.toString()
-            var intent = Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"))
-            intent.putExtra(Intent.EXTRA_EMAIL, mail)
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Forgotten password")
-            intent.putExtra(Intent.EXTRA_TEXT, "Your password is: ")
-            if (intent.resolveActivity(packageManager) != null)
-                startActivity(intent)
+            for (u in users) {
+                if (u.email == mail) {
+                    var intent = Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"))
+                    intent.putExtra(Intent.EXTRA_EMAIL, mail)
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "Forgotten password")
+                    intent.putExtra(Intent.EXTRA_TEXT, "Your password is: ${u.password}")
+                    if (intent.resolveActivity(packageManager) != null)
+                        startActivity(intent)
+                }
+            }
+
         }
     }
 
