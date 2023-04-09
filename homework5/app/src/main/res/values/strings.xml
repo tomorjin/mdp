@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MIU store</string>
+
+    <string name="login_title">Sign in to your account</string>
+    <string name="login_email_lbl">Email address (required)</string>
+    <string name="login_password_lbl">Password (required)</string>
+    <string name="login_forgot">Forgot password?</string>
+    <string name="login_btn_signin">Sign in</string>
+    <string name="login_dont_have_account">Don\'t have an account</string>
+    <string name="login_btn_signup">Create an account</string>
+
+    <string name="welcome_welcome">Welcome</string>
+    <string name="welcome_title">Shop by Categories</string>
+    <string name="welcome_books">Books</string>
+    <string name="welcome_clothing">Clothing</string>
+    <string name="welcome_organic_food">Organic Foods</string>
+    <string name="welcome_medicines">Medicines</string>
+
+    <string name="register_title">Create your account</string>
+    <string name="register_required">* required field</string>
+    <string name="register_fname">First name*</string>
+    <string name="register_lname">Last name*</string>
+    <string name="register_email">Email address*</string>
+    <string name="register_password">Password*</string>
+    <string name="register_btn_signup">Create Account</string>
+
+</resources>

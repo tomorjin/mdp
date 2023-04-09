@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">colorChangerApp</string>
+
+    <string name="second_welcome">Welcome</string>
+    <string name="second_title">Shop by Categories</string>
+    <string name="second_books">Books</string>
+    <string name="second_clothing">Clothing</string>
+    <string name="second_organic_food">Organic Foods</string>
+    <string name="second_medicines">Medicines</string>
+
+
+    <string name="third_title">Create your account</string>
+    <string name="third_required">* required field</string>
+    <string name="third_fname">First name*</string>
+    <string name="third_lname">Last name*</string>
+    <string name="third_email">Email address*</string>
+    <string name="third_password">Password*</string>
+
+
+    <string name="forth_first">First Number</string>
+    <string name="forth_second">Second Number</string>
+    <string name="forth_result_lbl">Result</string>
+
+
 </resources>
